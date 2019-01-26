@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main {
+	width: 700px;
+}
+.menuleft {
+	min-height: 350px;
+	float: left;
+	width: 100px;
+	border-left-style: solid;
+	position: fixed;
+}
+.links {
+	background-color: #224297;
+	min-height: 10000px;
+	float: right;
+	width: 490px;
+}
+.menuright {
+	width: 100px;
+	min-height: 350px;
+	margin-left: 103px;
+	margin-right: 100px;
+	border-right-style: solid;
+	position: fixed;
+}
+
+
+/*
+Left Menu Area START
+*****************************************
+*/
+ul.menu-vert{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: block;
+	font: bold 16px Helvetica, Verdana, Arial, sans-serif;
+	line-height: 165%;
+	width: 100px;
+}
+
+ul.menu-vert li{
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu-vert li a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background: #600;
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 5px;
+	padding-bottom: 0;
+	width: 95px;
+}
+
+ul.menu-vert li a:hover{
+	background: #900 url("images/vert-one_arrow.gif") no-repeat 0 9px;
+}
+
+ul.menu-vert li a.current,ul.vert-one li a.current:hover{
+background:#933 url("images/vert-one_arrow.gif") no-repeat 0 9px;}
+
+/*
+Left Menu Area End
+*****************************************
+*/
+
+
+.links .section {
+	float: left;
+	min-height: 10000px;
+	width: 480px;
+	background-color: #AEBABF;
+	border-width: thick;
+	border-style: solid;
+	padding-left: 10px;
+}
+
+.links .section a {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	text-decoration: none;
+	background-color: #182F01;
+	display: inline-block;
+	margin-right: 5px;
+	border: thin solid #BD272A;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-radius: 10px;
+}
+
+
+.links .section a:hover {
+	color: #182F01;
+	background-color: #FFFFFF;
+}
+
+#ext-link {
+	background-color: #E7EB5C;
+	color: #182F01;
+}
