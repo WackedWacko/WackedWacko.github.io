@@ -101,6 +101,7 @@ body {
 .section2 a:hover {
 	background-color: #E7EB5C;
 	color: #182F01;
+  cursor:cell;
 }
 
 
