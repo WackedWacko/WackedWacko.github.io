@@ -52,22 +52,24 @@ ul.menu-vert li{
 ul.menu-vert li a{
 	display: block;
 	text-decoration: none;
-	color: #fff;
-	background: #600;
 	padding-top: 0;
 	padding-right: 0;
 	padding-left: 5px;
 	padding-bottom: 0;
 	width: 95px;
+	color: #E7EB5C;
+	background-color: #182F01;
 }
 
 ul.menu-vert li a:hover{
-	background: #900 url("images/vert-one_arrow.gif") no-repeat 0 9px;
+	background-color: #E7EB5C;
+	color: #182F01;
+
 }
 
 ul.menu-vert li a.current,ul.vert-one li a.current:hover{
-background:#933 url("images/vert-one_arrow.gif") no-repeat 0 9px;}
-
+	background-color: #182F01;  
+}
 /*
 Left Menu Area End
 *****************************************
@@ -109,6 +111,10 @@ Left Menu Area End
 }
 
 #ext-link {
-	background-color: #E7EB5C;
+	background-color: #CB8A2D;
 	color: #182F01;
+}
+#ext-link:hover {
+	background-color: #E7EB5C;
+	color: #660000;
 }
